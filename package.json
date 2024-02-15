@@ -1,0 +1,28 @@
+{
+  "name": "nekudot",
+  "version": "1.0.0",
+  "description": "JS program",
+  "main": "main.js",
+  "author": "Stam Tovi & Racheli",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0-alpha.10",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  },
+  "build": {
+    "appId": "your.app.id",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "portable"
+    }
+  }
+}
